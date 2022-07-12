@@ -22,3 +22,32 @@ echo '# Configurações para o asdf-vm' >>~/.bashrc
 echo '. $HOME/.asdf/asdf.sh' >>~/.bashrc
 echo '. $HOME/.asdf/completions/asdf.bash' >>~/.bashrc
 ```
+
+## Instalar o zsh
+```
+sudo apt-get install zsh -y
+```
+
+Configurar como bash padrão
+```
+chsh -s /usr/bin/zsh
+```
+
+Saia do terminal (CTRL + D) e abra novamente, vai abrir um menu de configurações configure da maneira do seu uso.
+
+## Instalar theme para o zsh o [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+Baixar e instalar as fontes que tenha suporte a icones [fontes](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k).
+
+Configurar a fonte no Windows Terminal para o Ubuntu, abra as configurações(CTRL + ,), selecione Ubuntu >> Apaência >> Tipo de fonte >> MesloLGS NF >> clique no  botão Salvar.
+
+Instalar o powerlevel10k
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10k
+```
+
+Adicionar no PATH
+```
+echo 'source ~/.powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+```
+
+Saia do terminal (CTRL + D) e abra novamente, vai abrir um menu de configurações configure da maneira do seu uso.
