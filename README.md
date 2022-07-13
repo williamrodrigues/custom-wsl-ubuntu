@@ -11,6 +11,9 @@ sudo apt update && sudo apt list --upgradable
 sudo apt-get install curl git -y
 ```
 
+## Instalar docker
+Pre-requisito instalar o [Docker Desktop for Windows](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe) e siga as instruções de [configuração](https://docs.docker.com/desktop/windows/wsl/#install). 
+
 ## Instalar asdf-vm
 ```
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.2
