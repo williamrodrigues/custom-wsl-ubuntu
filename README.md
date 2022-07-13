@@ -26,6 +26,12 @@ echo '. $HOME/.asdf/asdf.sh' >>~/.bashrc
 echo '. $HOME/.asdf/completions/asdf.bash' >>~/.bashrc
 ```
 
+### Instalar nodejs
+```
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+asdf install nodejs lts
+```
+
 ## Instalar o zsh
 ```
 sudo apt-get install zsh -y
