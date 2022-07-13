@@ -53,7 +53,7 @@ echo 'source ~/.powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 Saia do terminal (CTRL + D) e abra novamente, vai abrir um menu de configurações configure da maneira do seu uso.
 
 ## Instalar plugins para o zsh
-### [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+### Instalar [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 echo 'source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh' >>~/.zshrc
