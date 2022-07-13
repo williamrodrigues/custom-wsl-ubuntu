@@ -59,7 +59,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 echo 'source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh' >>~/.zshrc
 ```
 
-### Instalar [exa](https://github.com/ogham/exa)
+### Instalar [exa](https://github.com/ogham/exa) e [bat](https://github.com/sharkdp/bat)
 ```
 sudo apt-get install libgit2-dev cmake
 curl https://sh.rustup.rs –sSf | sh
